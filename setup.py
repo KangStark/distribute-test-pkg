@@ -14,7 +14,6 @@ if sys.argv[-1] == 'publish':
 
 packages = ['distribute_test']
 
-# requires = ['requests>=2.11.0']
 requires = ['requests']
 
 with open("README.md", "r") as fh:
