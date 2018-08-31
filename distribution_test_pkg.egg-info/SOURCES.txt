@@ -1,0 +1,10 @@
+README.md
+setup.py
+distribute_test/__init__.py
+distribute_test/test01.py
+distribution_test_pkg.egg-info/PKG-INFO
+distribution_test_pkg.egg-info/SOURCES.txt
+distribution_test_pkg.egg-info/dependency_links.txt
+distribution_test_pkg.egg-info/not-zip-safe
+distribution_test_pkg.egg-info/requires.txt
+distribution_test_pkg.egg-info/top_level.txt
