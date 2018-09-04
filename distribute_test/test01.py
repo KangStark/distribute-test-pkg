@@ -2,13 +2,24 @@
 
 
 class test(object):
+    """this is a test class"""
     def __init__(self):
         self._payload = {'others0': 'other_params0','others1': 'other_params1'}
 
     def add_body_param(self, k, v):
+        """
+        添加请求体参数
+        :param k:参数名：string
+        :param v:参数值
+        :return:
+        """
         self._payload[k] = v
 
     def get_members(self):
+        """
+        获取业务主机
+        :return:
+        """
         return self.get_body_param().get('members')
 
     def get_body_param(self):
@@ -16,6 +27,11 @@ class test(object):
 
 
     def set_members(self, members):
+        """
+        添加业务主机
+        :param members: 业务主机列表，参数类型：list
+        :return:
+        """
         if members != []:
             self.add_body_param('members', members)
         if self.get_members() is None:
