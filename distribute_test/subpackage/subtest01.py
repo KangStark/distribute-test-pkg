@@ -2,8 +2,7 @@
 
 
 class test(object):
-    """this is a test class"""
-
+    """this is a subtest01 class"""
     def __init__(self):
         self._payload = {'others0': 'other_params0','others1': 'other_params1'}
 
@@ -11,7 +10,7 @@ class test(object):
         """
         添加请求体参数
 
-        :param k: 参数名string
+        :param k: 参数名 string
         :param v: 参数值
         :return:
         """
